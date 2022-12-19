@@ -21,7 +21,7 @@ main (int argc, char *argv[])
               scanf( "%d", &n1);
               printf( "\n   Introduzca segundo sumando: " );
               scanf( "%d", &n2);
-              printf( "\n   %d + %d = %d\n", n1, n2, n1 - n2 );
+              printf( "\n   %d + %d = %d\n", n1, n2, n1 + n2 );
               break;
 
               /* Opción 2: Restar */
@@ -29,7 +29,7 @@ main (int argc, char *argv[])
               scanf( "%d", &n1);
               printf( "\n   Introduzca sustraendo: " );
               scanf( "%d", &n2);
-              printf( "\n   %d - %d = %d\n", n1, n2, n1 + n2 );
+              printf( "\n   %d - %d = %d\n", n1, n2, n1 - n2 );
               break;
   }
   return 0;
